@@ -1,0 +1,136 @@
+body{ 
+  font-family: 'Roboto';
+  background-color: #white;
+  color: gray;
+  background-image: url('https://images.creativemarket.com/0.1.0/ps/7065029/1820/965/m1/fpnw/wm1/fskqsdmhcmtrnadgcmunaflw1nh5tavkkv3n4kztdzp8kbz3mdyso1yajjfq2c1o-.jpg?1569963940&s=bc72ef9863a09c077c9806ae416074af');
+  position: sticky;
+  center: 0px;
+  background-repeat: no-repeat ;   
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: scroll;
+   }
+
+.background-image {
+  min-height: 100%;
+  min-width: 100%;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+ }
+ 
+.logo{
+  width: 300px;
+  height: 200px;
+}
+h2{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 22px;
+  color: #fff; 
+  font-style: bold;
+  
+}
+td{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  align:right;
+  clear:left;
+}
+
+.grid-container{
+  display: grid/inline grid;
+}
+  
+
+p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 50%;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 10px 0;
+  text-size: 18px;
+  text-align: justify;
+  
+  
+}
+ th{
+   border: 1px solid white;  
+}
+   
+
+
+
+img.food{
+  margin-right:4px;
+  width: 200px;
+  height: 200px;
+  border-radIus: 50%
+}
+
+
+
+.navigation a{
+  text-align: center;
+  display: inline;
+  padding: 14px 16px;
+  display: (0, auto);
+  align-items: center;
+  
+}
+.navigation ul {
+  list-style-type: none;
+  padding: 0;
+  display: inline;
+  bottom: 0;
+  width: 100%;
+
+}
+
+li{
+
+  display: inline-block;
+}
+a:hover {
+  background-color: rgba(128, 0, 128, 0.055);
+  border-radius: 20px;
+  display: block;
+}
+
+a {
+  border-radius: 20px;
+  display: block;
+  padding: 8px;
+  background-color: #8abd7d;
+  color: rgb(230, 226, 20);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.grid-container {
+display: grid ;
+  grid-template-columns: 1fr 1fr 1fr; 
+
+
+  
+}
+
+
+
+.title{
+  font-size: 24px;
+
+}
+.descriptions{
+  font-size: 18px;
+}
